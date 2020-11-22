@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.card-body{
+    border:1px solid grey;
+    width: 450px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+/* .mx-btn{
+    text-align:center !important;
+} */
+.btn-drect{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
